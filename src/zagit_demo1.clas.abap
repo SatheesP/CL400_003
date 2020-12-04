@@ -1,14 +1,21 @@
-class ZAGIT_DEMO1 definition
-  public
-  final
-  create public .
+CLASS zagit_demo1 DEFINITION
+  PUBLIC
+  FINAL
+  CREATE PUBLIC .
 
-public section.
-protected section.
-private section.
+  PUBLIC SECTION.
+    METHODs: main.
+
+
+  PROTECTED SECTION.
+  PRIVATE SECTION.
 ENDCLASS.
 
 
 
-CLASS ZAGIT_DEMO1 IMPLEMENTATION.
+CLASS zagit_demo1 IMPLEMENTATION.
+
+  METHOD main.
+  ENDMETHOD.
+
 ENDCLASS.
